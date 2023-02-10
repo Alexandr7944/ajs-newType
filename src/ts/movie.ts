@@ -1,4 +1,6 @@
-class Movie {
+import IMovie from './interface/imovie';
+
+class Movie implements IMovie {
   constructor(
     readonly year: number,
     readonly country: string,

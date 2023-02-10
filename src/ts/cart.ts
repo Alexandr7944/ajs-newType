@@ -1,8 +1,7 @@
-import IBuyable from "./interface/buyable";
+import IBuyable from "./interface/ibuyable";
 
 class Cart {
   private _items: IBuyable[] = [];
-  id: any;
 
   add(item: IBuyable): void {
     this._items.push(item);
